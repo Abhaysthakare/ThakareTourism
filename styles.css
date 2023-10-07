@@ -1,0 +1,80 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif; /* Using Poppins as the primary font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for better readability */
+}
+
+/* Navbar Enhancements */
+nav {
+    background-color: rgb(38, 37, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 50px; /* Space below the navbar */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(147, 173, 196);
+    font-size: 1.1rem;
+}
+
+/* Content Section */
+.main-content {
+    margin: 20px 0;
+}
+
+/* Card Enhancements */
+.card {
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.card img.card-img-top {
+    border-radius: 10px 10px 0 0; /* Rounded corners on top */
+}
+
+/* Footer Enhancements */
+footer {
+    padding: 20px 0;
+    background-color: rgb(38, 37, 37);
+}
+
+footer p, footer h5 {
+    color: white;
+}
+.navbar-logo {
+    height: 40px; /* Adjust based on your logo's dimensions and navbar height */
+    width: auto; /* Maintains the logo's aspect ratio */
+    margin-right: 10px; /* Adds some space between the logo and the site name or other navbar items */
+}
+
+
